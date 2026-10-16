@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.0 — 2026-10-16
+
+- Add a CMD launcher forwarding parameters and exit status to the matching PowerShell 7 script. Both files must be downloaded together. No execution-policy bypass is used.
+- Add a standalone Bash launcher for Linux/macOS/WSL, with an embedded Python 3.8+ implementation. Uses explicit POSIX paths for real cases, directory symlinks instead of Windows shortcuts, and no network access at runtime.
+- Preserve the case tree, identity/configuration fields, five required filename stems, per-folder instructions, empty register, preview and no-overwrite behavior across entry points.
+- Add 14 automated Bash behavioral/safety tests and an optional Windows CMD/shortcut smoke test. Add line-ending rules and a VERSION file.
+- Keep PowerShell 0.1.0–0.1.2 files unchanged. PowerShell 0.2.0 is byte-for-byte 0.1.2 with version identifiers changed; its test tree is version-specific.
+- Validation: Bash syntax check and all 14 behavioral tests pass on Linux. Actual macOS/WSL and Windows CMD smoke tests have not been run in this environment. The user previously confirmed PowerShell 0.1.2 works at the office.
+- No automatic renaming, template filling, register updates, run capture or link repair is added.
+
 ## 0.1.2 — 2026-10-16
 
 - Add full PowerShell comment-based help for all parameters and examples for TEMP tests, supplied identity, and real-case previews.
