@@ -1,0 +1,86 @@
+{
+  "SchemaVersion": "1.0",
+  "BundleVersion": "1.0.0",
+  "ImportedDate": "2026-10-16",
+  "Source": "User-supplied email attachments",
+  "Status": "Initial collection; not asserted exhaustive or verified latest official revisions",
+  "Files": [
+    {
+      "FileName": "Actuarial Case Memo Shell_08062026.doc",
+      "SizeBytes": 64512,
+      "SHA256": "bbebb4b072edf111048d4f105de6a79bd24c1c897e134f393c7da434bad6240c",
+      "Kind": "Template",
+      "OutputCode": "R1",
+      "WorkFolder": "Work/Actuarial"
+    },
+    {
+      "FileName": "Actuarial Case Memo Sample Language_06042026.docx",
+      "SizeBytes": 193512,
+      "SHA256": "c3ac6596301273663200d847debcf14cfcdb1cc02bc75eea71037a47496f70e2",
+      "Kind": "SampleLanguage",
+      "OutputCode": null,
+      "WorkFolder": "Work/Actuarial"
+    },
+    {
+      "FileName": "Plan Summary Shell.docx",
+      "SizeBytes": 46951,
+      "SHA256": "415a895bba675ef0b8052d82c24c7bdf7e5450aa34b7ffe85d71c6e736c47fee",
+      "Kind": "Template",
+      "OutputCode": "R5",
+      "WorkFolder": "Work/Upfront"
+    },
+    {
+      "FileName": "436 Evaluation (ASTD Updates Nov 2025).docx",
+      "SizeBytes": 113384,
+      "SHA256": "77c3682bb52dfcb7108932b720e604d975b7ca8a79d24797b72f0f23df67ece0",
+      "Kind": "Template",
+      "OutputCode": null,
+      "WorkFolder": "Work/Upfront"
+    },
+    {
+      "FileName": "Software Closeout Request Email Template.docx",
+      "SizeBytes": 38321,
+      "SHA256": "3a046c8a869ec328a50fec9ba7f32973fbf556bab22072ca35abdbb641e62d32",
+      "Kind": "Template",
+      "OutputCode": null,
+      "WorkFolder": "Closeout"
+    },
+    {
+      "FileName": "Software Closeout Review Checklist.pdf",
+      "SizeBytes": 6130119,
+      "SHA256": "8d0687292cad5d5b8950918c397deef7bc6ecffd902dc10e6cc21eea45c0ca9e",
+      "Kind": "Checklist",
+      "OutputCode": null,
+      "WorkFolder": "Closeout"
+    },
+    {
+      "FileName": "Estimated Benefit Adjustments Worksheet.docx",
+      "SizeBytes": 32672,
+      "SHA256": "cc22e78e6fd1efdfe16ea9d7e93f44cb7f903ec09ae1256c5ad01c64d501730c",
+      "Kind": "Template",
+      "OutputCode": null,
+      "WorkFolder": "Work/Upfront"
+    },
+    {
+      "FileName": "AMB Acceptance Template.docx",
+      "SizeBytes": 69055,
+      "SHA256": "0e9c912b0bcd360d72d88e1effd2c7d3ab9293f12f9830951404b48ffcbc910a",
+      "Kind": "Template",
+      "OutputCode": null,
+      "WorkFolder": "Work/Upfront"
+    }
+  ],
+  "NotIncluded": [
+    {
+      "FileName": "Actuarial Case Report Checklist (January 2024).pdf",
+      "Reason": "Received as a completed and digitally signed case document; original excluded pending direction. A blank master is needed."
+    }
+  ],
+  "MissingFromThisEmail": [
+    "Separate estimated administration analysis memo",
+    "Separate estimated adjustment analysis memo",
+    "R0 package index master",
+    "PF workbook master",
+    "V1 workbook master"
+  ]
+}

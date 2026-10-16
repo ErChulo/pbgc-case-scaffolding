@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.1 — 2026-10-16
+
+- Bundle eight original user-supplied attachments under Actuarial-Resources/Templates, preserving names, extensions and bytes. A normal clone includes actual files, not download links or Git LFS pointers.
+- Add template bundle 1.0.0 catalog with roles, work folders, sizes and SHA-256 hashes; distinguish sample language and checklist from blank shells. Record missing masters explicitly.
+- Exclude the received completed and digitally signed Actuarial Case Report Checklist pending further direction; do not publish case-specific signatures as a blank master.
+- PowerShell/CMD/Bash 0.2.1 select the adjacent bundled resources folder for real cases when its catalog exists. Explicit resource overrides still take precedence. TestMode remains isolated in TEMP.
+- Preserve all earlier scripts. Update instructions for cloned bundles and scripts copied to TEMP. No automatic template filling, document renaming or version capture is added.
+- Validation: all 17 Linux tests pass, covering original safety behavior, template checksums, bundle discovery without duplicate masters, isolated preview and rerun preservation. Windows execution of 0.2.1 remains pending.
+
 ## 0.2.0 — 2026-10-16
 
 - Add a CMD launcher forwarding parameters and exit status to the matching PowerShell 7 script. Both files must be downloaded together. No execution-policy bypass is used.
