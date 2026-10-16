@@ -1,5 +1,12 @@
 # PBGC case scaffolding
 
+[![Version 0.2.1](https://img.shields.io/badge/version-0.2.1-blue)](CHANGELOG.md)
+[![Linux tests: 17 passing](https://img.shields.io/badge/Linux_tests-17_passing-brightgreen)](#version-history-and-validation)
+[![Template SHA-256: 8 verified](https://img.shields.io/badge/template_SHA--256-8_verified-brightgreen)](Actuarial-Resources/Templates/catalog.json)
+[![Windows validation: pending](https://img.shields.io/badge/Windows_validation-pending-yellow)](#version-history-and-validation)
+
+Status snapshots checked on **2026-10-16**. Test and integrity badges reflect locally verified results, not a live CI feed or external certification. Latest-version Windows testing remains pending.
+
 Current version: **0.2.1**. Choose the entry point for your terminal:
 
 | Terminal | Download | Requirement |
